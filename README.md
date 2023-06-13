@@ -39,7 +39,7 @@ git clone https://github.com/ohmyzsh/ohmyzsh.git ~/.oh-my-zsh
 ### Installation
 
 ```sh
-git clone https://github.com/amreshpro/zsh-theme.git ~/.oh-my-zsh/themes/
+git clone https://github.com/amreshpro/zsh-theme.git ~/.oh-my-zsh/themes/amresh.zsh-theme
 ```
 
 
