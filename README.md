@@ -39,9 +39,19 @@ git clone https://github.com/ohmyzsh/ohmyzsh.git ~/.oh-my-zsh
 ### Installation
 
 ```sh
-git clone https://github.com/amreshpro/zsh-theme.git ~/.oh-my-zsh/themes/amresh.zsh-theme
+git clone https://github.com/amreshpro/zsh-theme.git    randomTestFolder
+```
+#### Go to ```randomTestFolder```
+
+```sh 
+cd /yourpath/randomTestFolder
 ```
 
+#### Copy ```amresh.zsh-theme``` file in  ```~/.oh-my-zsh/themes/```
+
+```sh
+sudo cp  amresh.zsh-theme   ~/.oh-my-zsh/themes/
+```
 
 ## Enabling Plugins & Change Themes
 
