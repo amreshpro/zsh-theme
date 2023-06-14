@@ -4,7 +4,7 @@ MODE_INDICATOR="%{$fg_bold[red]%}❮%{$reset_color%}%{$fg[red]%}❮❮%{$reset_c
 local return_status="%{$fg[red]%}%(?..⏎)%{$reset_color%}"
 
 # Prompt-> Trishul symbol + OM
-PROMPT="🟠 %{$fg_bold[red]%}卐 %{$fg[blue]%}%m%{$reset_color%}%{$fg_bold[red]%} ॐ  %{$reset_color%}%{$fg[blue]%}%~%{$reset_color%}%{$fg_bold[green]%} ❯❯  "
+PROMPT="🟠 %{$fg_bold[red]%}卐 %{$fg[blue]%}%m%{$reset_color%}%{$fg_bold[red]%} ॐ  %{$reset_color%}%{$fg[blue]%}%~%{$reset_color%}%{$fg_bold[green]%} ❯❯ "
 
 ZSH_THEME_GIT_PROMPT_PREFIX="%{$reset_color%} %{$fg_bold[green]%} ⚡ "
 ZSH_THEME_GIT_PROMPT_SUFFIX="%{$reset_color%}"
