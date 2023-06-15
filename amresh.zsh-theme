@@ -4,9 +4,9 @@ MODE_INDICATOR="%{$fg_bold[red]%}❮%{$reset_color%}%{$fg[red]%}❮❮%{$reset_c
 local return_status="%{$fg[red]%}%(?..⏎)%{$reset_color%}"
 
 # Prompt-> Trishul symbol + OM
-PROMPT="🟠 %{$fg_bold[red]%}卐 %{$fg[blue]%}%m%{$reset_color%}%{$fg_bold[red]%} ॐ  %{$reset_color%}%{$fg[blue]%}%~%{$reset_color%}%{$fg_bold[green]%} ❯❯ "
+PROMPT="🟠%{$fg_bold[red]%}卐%{$fg[blue]%}%m%{$reset_color%}%{$fg_bold[red]%} ॐ %{$reset_color%}%{$fg[blue]%}%~%{$reset_color%}%{$fg_bold[green]%}❯❯ "
 
-ZSH_THEME_GIT_PROMPT_PREFIX="%{$reset_color%} %{$fg_bold[green]%} ⚡ "
+ZSH_THEME_GIT_PROMPT_PREFIX="%{$reset_color%} %{$fg_bold[green]%}⚡"
 ZSH_THEME_GIT_PROMPT_SUFFIX="%{$reset_color%}"
 ZSH_THEME_GIT_PROMPT_DIRTY="%{$fg[red]%}%{$reset_color%}"
 ZSH_THEME_GIT_PROMPT_CLEAN=""
@@ -14,7 +14,7 @@ ZSH_THEME_GIT_PROMPT_CLEAN=""
 
 
 RPROMPT="${return_status}$(git_prompt_status)%{$reset_color%}"
-RPROMPT='$(git_prompt_info)  $(git_time_since_commit)'
+RPROMPT='$(git_prompt_info) $(git_time_since_commit)'
 
 ZSH_THEME_GIT_PROMPT_ADDED="%{$fg[green]%} ✚"
 ZSH_THEME_GIT_PROMPT_MODIFIED="%{$fg[blue]%} ✹"
