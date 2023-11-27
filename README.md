@@ -1,6 +1,11 @@
 <h1 align="center">oh-my-zsh</h1>
 
-![Imgur](https://i.imgur.com/SM441j1.png)
+!["ss1"](screenshots/tss1.png)
+!["ss1"](screenshots/tss2.png)
+!["ss1"](screenshots/tss3.png)
+!["ss1"](screenshots/tss4.png)
+
+<!-- ![Imgur](https://i.imgur.com/SM441j1.png) -->
 
 Oh My Zsh is an open source, community-driven framework for managing your zsh configuration.
 
@@ -32,7 +37,8 @@ git clone https://github.com/ohmyzsh/ohmyzsh.git ~/.oh-my-zsh
 ## Use My Custom Theme - ```amresh.zsh-theme```
 
 ### amresh
-
+!["ss1"](screenshots/tss1.png)
+!["ss1"](screenshots/tss2.png)
 ![amresh](https://i.imgur.com/aT6Od6S.png)
 
 
@@ -84,5 +90,6 @@ ZSH_THEME="amresh"
 ### your terminal look like this.
 
 > How This Theme look in Vs Code
-
+!["ss1"](screenshots/tss1.png)
+!["ss1"](screenshots/tss2.png)
 ![amresh](https://i.imgur.com/SM441j1.png)
